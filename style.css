@@ -1,0 +1,224 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    color:#333333;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+
+/* ==========================
+   COLORS
+
+#2563EB
+#0D1B2A
+#333333
+#FFFFFF
+#575757
+#E5E7EB
+#60A5FA
+rgba(255,255,255,.8)
+#888888
+#3B82F6
+#1D4ED8
+========================== */
+
+
+.container{
+    width:1280px;
+    margin:auto;
+}
+
+
+/* ==========================
+   NAVBAR
+========================== */
+
+nav{
+
+    height:72px;
+    background:#FFFFFF;
+    border-bottom:1px solid #E5E7EB;
+}
+
+.navbar{
+
+    height:72px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+
+    width:130px;
+}
+
+
+.nav-links{
+
+    display:flex;
+    gap:34px;
+}
+
+.nav-links a{
+
+    color:#575757;
+    font-size:15px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
+    color:#2563EB;
+}
+
+.btn{
+
+    width:130px;
+    height:42px;
+
+    background:#2563EB;
+
+    border-radius:8px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    background:#1D4ED8;
+}
+
+
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    position:relative;
+
+    height:720px;
+
+    background:url("images/banner.jpg") center center/cover no-repeat;
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.58);
+}
+
+
+.hero-content{
+
+    position:relative;
+    z-index:2;
+
+    width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+    padding-top:95px;
+}
+
+
+.hero-content h1{
+
+    color:#FFFFFF;
+
+    font-size:72px;
+
+    font-weight:800;
+
+    line-height:1.1;
+
+    margin-bottom:24px;
+}
+
+.hero-content span{
+
+    font-style:italic;
+}
+
+
+.hero-content p{
+
+    width:760px;
+
+    margin:auto;
+
+    color:rgba(255,255,255,.8);
+
+    font-size:28px;
+
+    line-height:1.45;
+
+    font-weight:400;
+}
+
+
+.hero-btn{
+
+    width:195px;
+    height:58px;
+
+    margin:210px auto 0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    font-size:18px;
+    font-weight:700;
+
+    transition:.3s;
+}
+
+.hero-btn:hover{
+
+    background:#1D4ED8;
+}
