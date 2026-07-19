@@ -647,3 +647,245 @@ BUTTONS
 
     color:#FFFFFF;
 }
+
+
+
+
+
+/*=========================
+WHY ATTEND
+=========================*/
+
+.why-attend{
+
+    width:1551px;
+
+    margin:auto;
+
+    padding:90px 80px;
+
+    background:#EDE9FE;
+}
+
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+}
+
+
+.mini-line{
+
+    width:50px;
+
+    height:4px;
+
+    background:#7C3AED;
+
+    border-radius:30px;
+
+    display:inline-block;
+
+    margin-bottom:18px;
+}
+
+
+.section-title h2{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    color:#7C3AED;
+
+    margin-bottom:16px;
+}
+
+
+.section-title p{
+
+    width:720px;
+
+    margin:auto;
+
+    color:#9F67EA;
+
+    font-size:22px;
+
+    line-height:1.6;
+}
+
+
+.benefits{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+}
+
+
+.benefit-card{
+
+    background:#FFFFFF;
+
+    border-radius:14px;
+
+    padding:35px 28px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+
+.benefit-card:hover{
+
+    transform:translateY(-8px);
+}
+
+
+.icon{
+
+    font-size:42px;
+
+    margin-bottom:18px;
+}
+
+
+.benefit-card h3{
+
+    font-size:24px;
+
+    color:#0D1B2A;
+
+    margin-bottom:14px;
+}
+
+
+.benefit-card p{
+
+    color:#575757;
+
+    line-height:1.7;
+
+    font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================
+FOOTER
+=========================*/
+
+footer{
+
+    background:#0D1B2A;
+
+    padding:45px 80px;
+}
+
+
+.footer-top{
+
+    width:1280px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+
+.footer-top img{
+
+    width:135px;
+}
+
+
+.social-links{
+
+    display:flex;
+
+    gap:18px;
+}
+
+
+.social-links a{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    color:#FFFFFF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:.3s;
+}
+
+
+.social-links a:hover{
+
+    background:#2563EB;
+}
+
+
+footer hr{
+
+    width:1280px;
+
+    margin:35px auto;
+
+    border:none;
+
+    border-top:1px solid rgba(255,255,255,.12);
+}
+
+
+.footer-bottom{
+
+    width:1280px;
+
+    margin:auto;
+
+    text-align:center;
+}
+
+
+.footer-bottom p{
+
+    color:rgba(255,255,255,.8);
+
+    font-size:15px;
+}
